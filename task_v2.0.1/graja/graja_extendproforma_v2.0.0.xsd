@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0" targetNamespace="urn:graja:extendproforma:v2.0.0" xmlns:e="urn:graja:extendproforma:v2.0.0" xmlns:tns="urn:graja:extendproforma:v2.0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="assignmentMetaData" type="tns:assignmentMetaData"/>
+
+  <xs:element name="computingResources" type="tns:computingResources"/>
+
+  <xs:element name="debugSwitches" type="tns:debugSwitches"/>
+
+  <xs:element name="proformaSubmissionData" type="tns:proformaSubmissionData"/>
+
+  <xs:element name="systemLocale" type="tns:systemLocale"/>
+
+  <xs:complexType name="assignmentMetaData">
+    <xs:sequence>
+      <xs:element name="assignmentId" type="xs:string" minOccurs="0"/>
+      <xs:element name="grajaVersionCompatibility" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="computingResources">
+    <xs:all>
+      <xs:element name="maxRuntimeSecondsWallclockTime" type="xs:int" nillable="true"/>
+      <xs:element name="maxDiscQuotaKib" type="xs:int" nillable="true"/>
+      <xs:element name="maxMemMib" type="xs:int" nillable="true"/>
+    </xs:all>
+  </xs:complexType>
+
+  <xs:complexType name="systemLocale">
+    <xs:sequence/>
+    <xs:attribute name="defaultCharset" type="xs:string"/>
+    <xs:attribute name="defaultLocale" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="debugSwitches">
+    <xs:sequence>
+      <xs:element name="keepStarterWorkspace" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="keepBackendWorkspace" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="javaSecurityDebug" type="xs:string" minOccurs="0"/>
+      <xs:element name="agentlibJdwp" type="xs:string" minOccurs="0"/>
+      <xs:element name="overrideMaxRuntimeSecondsWallclockTime" type="xs:int" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="proformaSubmissionData">
+    <xs:sequence>
+      <xs:element name="maxSubmissionUnpackSizeKib" type="xs:int" minOccurs="0"/>
+      <xs:element name="includeScores" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="includeConsoleOutput" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="useJavascript" type="xs:boolean" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
