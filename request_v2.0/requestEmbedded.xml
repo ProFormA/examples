@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <submission xmlns="urn:proforma:v2.0">
+          <external-task uuid="uuid1">http-file:isPalindromPackage.zip</external-task>
+          <files>"<file>
+              <embedded-txt-file filename="de/ostfalia/zell/isPalindromTask/MyString.java"><![CDATA[package de.ostfalia.zell.isPalindromTask;
+
+public class MyString {
+	
+	static public Boolean isPalindrom(String aString) 
+	{
+		String reverse = new StringBuilder(aString).reverse().toString();
+
+		return (aString.equalsIgnoreCase(reverse));
+		// return false;
+	}
+}
+]]></embedded-txt-file>
+          </file></files>
+      <lms url="testcase">
+        <submission-datetime>1900-01-01T01:01:01+01:00</submission-datetime>
+        <user-id>test user</user-id>
+        <course-id>test course</course-id>
+      </lms>
+      <result-spec format="xml" structure="separate-test-feedback" lang="de">
+        <student-feedback-level>debug</student-feedback-level>
+        <teacher-feedback-level>debug</teacher-feedback-level>
+      </result-spec>
+    </submission>

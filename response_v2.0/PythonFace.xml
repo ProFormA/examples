@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns="urn:proforma:v2.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <separate-test-feedback>
+        <submission-feedback-list>
+        </submission-feedback-list>
+        <tests-response>
+            
+            <test-response id="1">
+                
+                
+                
+                <test-result>                
+                    <result >
+                        <score>1</score>
+                    </result>
+                    <feedback-list>
+                        
+                        <student-feedback level="info">
+                            <title>Python Test</title>
+                            <content format="html"><![CDATA[<pre>
+
+======== Test Results ======
+
+</pre><br/><pre>&lt;pre&gt;Trying:
+    import gesicht
+Expecting:
+            \  |  /
+              @ @
+               *
+             \&quot;&quot;&quot;/
+ok
+1 items had no tests:
+    __main__
+1 items passed all tests:
+   1 tests in __main__.testing
+1 tests in 2 items.
+1 passed and 0 failed.
+Test passed.
+&lt;/pre&gt;</pre>]]></content>
+                        </student-feedback>
+                        
+                    </feedback-list>
+                </test-result>
+
+                
+            </test-response>
+            
+        </tests-response>
+    </separate-test-feedback>
+    
+    <files>
+    </files>
+    <response-meta-data>
+        <grader-engine name="praktomat" version="Version 3.0.3 | 20190910"/>
+    </response-meta-data>
+</response>

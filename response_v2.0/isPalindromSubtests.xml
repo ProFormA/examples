@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns="urn:proforma:v2.0"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <separate-test-feedback>
+        <submission-feedback-list/>
+        <tests-response>
+            <test-response id="2">
+                <test-result>
+                    <result >
+                        <score>1</score>
+                    </result>
+                    <feedback-list>
+                        <student-feedback level="info">
+                            <title>Java - Compiler</title>
+                            <content format="html">
+                                <![CDATA[<div>1 <tt>Java</tt> user-submitted files found for compilation:  MyString.java &nbsp; </div><div>The Java compiler produced no output</div>]]>
+                            </content>
+                        </student-feedback>
+                    </feedback-list>
+                </test-result>
+            </test-response>
+            <test-response id="1">
+                <subtests-response>
+                    <subtest-response id="junit1">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>Empty</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                    <subtest-response id="junit2">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>Lagertonnennotregal</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                    <subtest-response id="junit3">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>Rentner</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                    <subtest-response id="junit4">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>False1</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                    <subtest-response id="junit5">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>False2</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                    <subtest-response id="junit6">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>Random</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                </subtests-response>
+            </test-response>
+            <test-response id="3">
+                <subtests-response>
+                    <subtest-response id="junit1">
+                        <test-result>
+                            <result>
+                                <score>0.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="error">
+                                    <title>Get Immer Schief</title>
+                                </student-feedback>
+                                <teacher-feedback>
+                                    <title>Stack Trace:</title>
+                                    <content format="plaintext">org.junit.Assert.fail(Assert.java:92) org.junit.Assert.assertTrue(Assert.java:43) org.junit.Assert.assertTrue(Assert.java:54) Palindrom2Test.testGetImmerSchief(Palindrom2Test.java:15) [...]</content>
+                                </teacher-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                    <subtest-response id="junit2">
+                        <test-result>
+                            <result>
+                                <score>1.0</score>
+                            </result>
+                            <feedback-list>
+                                <student-feedback level="info">
+                                    <title>Empty</title>
+                                </student-feedback>
+                            </feedback-list>
+                        </test-result>
+                    </subtest-response>
+                </subtests-response>
+            </test-response>
+        </tests-response>
+    </separate-test-feedback>
+    <files/>
+    <response-meta-data>
+        <grader-engine name="praktomat" version="Version 3.0.3 | 20190910"/>
+    </response-meta-data>
+</response>
