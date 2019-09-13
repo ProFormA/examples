@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
         <submission xmlns="urn:proforma:v2.0">
-          <external-task uuid="uuid1">http-file:isPalindromPackage.zip</external-task>
+          <external-task uuid="980564f0-5886-49f5-8fde-b45719b203f2">http-file:isPalindromPackage.zip</external-task>
           <files>"<file>
               <embedded-txt-file filename="de/ostfalia/zell/isPalindromTask/MyString.java"><![CDATA[package de.ostfalia.zell.isPalindromTask;
 
@@ -17,7 +17,7 @@ public class MyString {
 ]]></embedded-txt-file>
           </file></files>
       <lms url="testcase">
-        <submission-datetime>1900-01-01T01:01:01+01:00</submission-datetime>
+        <submission-datetime>2019-09-13T01:01:01+01:00</submission-datetime>
         <user-id>test user</user-id>
         <course-id>test course</course-id>
       </lms>
