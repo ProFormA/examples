@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<p:response xmlns:p="urn:proforma:v2.0.1">
+  <p:merged-test-feedback>
+    <p:overall-result>
+      <p:score>3.6799999999999997</p:score>
+    </p:overall-result>
+    <p:student-feedback><![CDATA[<h1 id='5XcRT8izPX4E_HEADLINE'>Overall result</h1>
+<div class='graja'>
+<p>
+<span>Grading starts at: 2019-09-14T10:46:20.516
+</span></p><p>
+<span style='font-weight:bold;font-size:larger'>Submission processing</span><span style='font-weight:bold;font-size:larger'> Details</span></p><p>
+<span>Graja detected the following encodings in your source files.</span></p>
+
+<table id='table_79ee4963f61048e692c7abf8e6afcd25' style='padding:0px;border-spacing:0px;'><tr id='tr_table_79ee4963f61048e692c7abf8e6afcd25_0'><th id='table_79ee4963f61048e692c7abf8e6afcd25_03ab4878-d70f-4834-b4c1-4f7a3a2367a9'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>File</span></th><th id='table_79ee4963f61048e692c7abf8e6afcd25_30291f33-8e98-498e-88d5-af2601723ed7'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>Detected encoding</span></th></tr><tr id='tr_table_79ee4963f61048e692c7abf8e6afcd25_1'><td id='table_79ee4963f61048e692c7abf8e6afcd25_ce1b1ed8-3e58-4b37-8ae1-afb9d48101b8'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>&#47;geom&#47;Circle.java</span></td><td id='table_79ee4963f61048e692c7abf8e6afcd25_200fdb2f-6ebe-405a-9f61-6912fa340a36'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>UTF-8</span></td></tr></table><p>
+<span>This above table is for your information only. You should consult the table, if there are strange errors that do not occur on your computer. Note: it's safest to use UTF-8 for your source files, since UTF-8 can be detected reliably. Other encodings like Windows encodings, Latin1 or Mac specific encodings might not be detected correctly depending on your source file contents. As a consequence the following could happen: you saved your Java source containing e. g. the variable 'm&#225;cula' using the encoding x-MacRoman. Graja mistakenly loads your file using a different encoding windows-1252 and interprets the character '&#225;' as a symbol '&#8211;'. The resulting variable name 'm&#8211;cula' is an illegal Java identifier and compilation will fail. In order to prevent such errors it is recommended to save and submit your files in UTF-8.</span></p></div><div class='graja'>
+<p>
+<span>Running JVM's java version: 1.8. </span><span>Graja version: 2.1.0-SNAPSHOT 2019-09-14 10:08:22. </span></p><p>
+<span style='font-size:larger;font-weight:bold'>Summary</span><span style='font-size:larger;font-weight:bold'> Details</span></p>
+
+<p>
+<span>Error. Score: 3.68&#47;8.00. Assignment dom.circle.</span></p>
+
+<table id='table_6d9603a4affb4236a03b80b55eff3305' style='padding:0px;border-spacing:0px;'><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_0'><th id='table_6d9603a4affb4236a03b80b55eff3305_aspect0'  style='background-color:transparent;padding:5px 5px 5px 5px;text-align:center;' colspan='5'><span>Aspect</span></th><th id='table_6d9603a4affb4236a03b80b55eff3305_result0'  style='background-color:transparent;width:33%;padding:5px 5px 5px 5px;text-align:center;' colspan='5'><span>Result</span></th></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_1'><td id='table_6d9603a4affb4236a03b80b55eff3305_title1'  style='background-color:hsl(0, 0%, 70%);padding:5px 0px 0px 5px;text-align:left;' colspan='5'><span style='font-style:italic'>Overall result [max. 8.00] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result1'  style='background-color:hsl(0, 0%, 70%);padding:5px 5px 0px 0px;text-align:right;' colspan='5'><span style='font-style:italic'> 3.68 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_2'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar1'  style='background-color:hsl(0, 0%, 70%);width:20px;padding:0px 0px 5px 5px;text-align:left;' rowspan='19'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule1'  style='background-color:hsl(0, 0%, 70%);padding:0px 0px 0px 0px;text-align:left;' colspan='8'><p>
+<span>Score calculation:</span><span> Sum of the following sub aspects</span></p>
+
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar1'  style='background-color:hsl(0, 0%, 70%);width:20px;padding:0px 5px 5px 0px;text-align:right;' rowspan='19'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_3'><td id='table_6d9603a4affb4236a03b80b55eff3305_title5'  style='background-color:hsl(0, 0%, 78%);padding:5px 0px 0px 5px;text-align:left;' colspan='4'><span>Syntax [max. 0.80] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result5'  style='background-color:hsl(0, 0%, 78%);padding:5px 5px 0px 0px;text-align:right;' colspan='4'><span>correct - </span><img  id='image_179117fcb1934ff197ccf94ea54c593e'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span> 1.00 </span><img  id='image_bb100d8c427349fc914915c607554d2f'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 0.80'  alt='Multiplication by a weight factor 0.80'  ><span> 0.80 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_4'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar5'  style='background-color:hsl(0, 0%, 78%);width:20px;padding:0px 0px 5px 5px;text-align:left;'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule5'  style='background-color:hsl(0, 0%, 78%);padding:0px 0px 0px 0px;text-align:left;' colspan='6'><p>
+<span style='font-size:smaller'>Score calculation:</span></p>
+
+<ul>
+<li><img  id='image_64cbe7ae8433447586af12c50febe16e'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span style='font-size:smaller'> Test result (raw score)</span>
+</li>
+<li><img  id='image_e78114fb2cc14b3f8be27bdf3bdad680'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 0.80'  alt='Multiplication by a weight factor 0.80'  ><span style='font-size:smaller'> Multiplication by a weight factor 0.80</span>
+</li>
+</ul>
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar5'  style='background-color:hsl(0, 0%, 78%);width:20px;padding:0px 5px 5px 0px;text-align:right;'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_5'><td id='table_6d9603a4affb4236a03b80b55eff3305_title9'  style='background-color:hsl(0, 0%, 78%);padding:5px 0px 0px 5px;text-align:left;' colspan='4'><span style='font-style:italic'>Functionality [max. 4.80] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result9'  style='background-color:hsl(0, 0%, 78%);padding:5px 5px 0px 0px;text-align:right;' colspan='4'><span style='font-style:italic'> 2.88 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_6'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar9'  style='background-color:hsl(0, 0%, 78%);width:20px;padding:0px 0px 5px 5px;text-align:left;' rowspan='5'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule9'  style='background-color:hsl(0, 0%, 78%);padding:0px 0px 0px 0px;text-align:left;' colspan='6'><p>
+<span>Score calculation:</span><span> Sum of the following sub aspects</span></p>
+
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar9'  style='background-color:hsl(0, 0%, 78%);width:20px;padding:0px 5px 5px 0px;text-align:right;' rowspan='5'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_7'><td id='table_6d9603a4affb4236a03b80b55eff3305_title13'  style='background-color:hsl(0, 0%, 86%);padding:5px 0px 0px 5px;text-align:left;' colspan='3'><span>Should calculate area [max. 2.40] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result13'  style='background-color:hsl(0, 0%, 86%);padding:5px 5px 0px 0px;text-align:right;' colspan='3'><span>correct - </span><img  id='image_7c928c2de0ec451ab1b2d8d1d7486eb1'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span> 1.00 </span><img  id='image_96d159fa974e4af08ccf03dddeaabec5'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 2.40'  alt='Multiplication by a weight factor 2.40'  ><span> 2.40 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_8'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar13'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 0px 5px 5px;text-align:left;'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule13'  style='background-color:hsl(0, 0%, 86%);padding:0px 0px 0px 0px;text-align:left;' colspan='4'><p>
+<span style='font-size:smaller'>Score calculation:</span></p>
+
+<ul>
+<li><img  id='image_ed1cc8fd12b64bfcaa164aab3e534203'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span style='font-size:smaller'> Test result (raw score)</span>
+</li>
+<li><img  id='image_e87d60d2176648f4b702529419ad5b07'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 2.40'  alt='Multiplication by a weight factor 2.40'  ><span style='font-size:smaller'> Multiplication by a weight factor 2.40</span>
+</li>
+</ul>
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar13'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 5px 5px 0px;text-align:right;'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_9'><td id='table_6d9603a4affb4236a03b80b55eff3305_title17'  style='background-color:hsl(0, 0%, 86%);padding:5px 0px 0px 5px;text-align:left;' colspan='3'><span style='font-weight:bold'>Should calculate radius [max. 2.40] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result17'  style='background-color:hsl(0, 0%, 86%);padding:5px 5px 0px 0px;text-align:right;' colspan='3'><span style='font-weight:bold'>wrong - </span><img  id='image_6aa4b6ce2fe74c28a00fbf7d8b2a29c3'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span style='font-weight:bold'> 0.20 </span><img  id='image_743de7abe7cb44f58a049479ed4a8a50'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 2.40'  alt='Multiplication by a weight factor 2.40'  ><span style='font-weight:bold'> 0.48 </span><span style='white-space:nowrap'><a href='#anchor_68dabea805c84c6db65c01ebfa2fdfe9'><img  id='image_4f16735b71684c33ba07d1ba3337d5d2'  width='14' height='14' style='margin:0px 4px;' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAATElEQVR42mNgYPjPQB6GEygCBDCKRmTNhGxCsYBYzRgacWnGxcfpR3x8rBrxKSaoEV0zSRqxRQ1ZfiSoEV8iINqpBOOR1IRKjh4oBgC3DMM9igvEPQAAAABJRU5ErkJggg=='  title='jump to result details'  alt='jump to result details'  ></a></span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_10'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar17'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 0px 5px 5px;text-align:left;'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule17'  style='background-color:hsl(0, 0%, 86%);padding:0px 0px 0px 0px;text-align:left;' colspan='4'><p>
+<span style='font-size:smaller'>Score calculation:</span></p>
+
+<ul>
+<li><img  id='image_4f33473ddc434607a2976af6ac39c0cd'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span style='font-size:smaller'> Test result (raw score)</span>
+</li>
+<li><img  id='image_841a583e962c4aafabaa5a104b499902'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 2.40'  alt='Multiplication by a weight factor 2.40'  ><span style='font-size:smaller'> Multiplication by a weight factor 2.40</span>
+</li>
+</ul>
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar17'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 5px 5px 0px;text-align:right;'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_11'><td id='table_6d9603a4affb4236a03b80b55eff3305_title21'  style='background-color:hsl(0, 0%, 78%);padding:5px 0px 0px 5px;text-align:left;' colspan='4'><span style='font-style:italic'>Maintainability [max. 2.40] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result21'  style='background-color:hsl(0, 0%, 78%);padding:5px 5px 0px 0px;text-align:right;' colspan='4'><span style='font-style:italic'> 0.00 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_12'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar21'  style='background-color:hsl(0, 0%, 78%);width:20px;padding:0px 0px 5px 5px;text-align:left;' rowspan='9'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule21'  style='background-color:hsl(0, 0%, 78%);padding:0px 0px 0px 0px;text-align:left;' colspan='6'><p>
+<span>Score calculation:</span><span> Sum of the following sub aspects</span></p>
+
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar21'  style='background-color:hsl(0, 0%, 78%);width:20px;padding:0px 5px 5px 0px;text-align:right;' rowspan='9'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_13'><td id='table_6d9603a4affb4236a03b80b55eff3305_title25'  style='background-color:hsl(0, 0%, 86%);padding:5px 0px 0px 5px;text-align:left;' colspan='3'><span style='font-style:italic'>Style [max. 0.72] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result25'  style='background-color:hsl(0, 0%, 86%);padding:5px 5px 0px 0px;text-align:right;' colspan='3'><span style='font-style:italic'> 0.00 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_14'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar25'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 0px 5px 5px;text-align:left;' rowspan='5'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule25'  style='background-color:hsl(0, 0%, 86%);padding:0px 0px 0px 0px;text-align:left;' colspan='4'><p>
+<span>Score calculation:</span><span> Min of the following sub aspects</span></p>
+
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar25'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 5px 5px 0px;text-align:right;' rowspan='5'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_15'><td id='table_6d9603a4affb4236a03b80b55eff3305_title29'  style='background-color:hsl(0, 0%, 95%);padding:5px 0px 0px 5px;text-align:left;' colspan='2'><span>There should be one statement per line [max. 0.72] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result29'  style='background-color:hsl(0, 0%, 95%);padding:5px 5px 0px 0px;text-align:right;' colspan='2'><span>correct - </span><img  id='image_d3c3902f97de495880d0cf37f7d1d4b8'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span> 1.00 </span><img  id='image_4b540f04e9474797962d22f3249fc414'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 0.72'  alt='Multiplication by a weight factor 0.72'  ><span> 0.72 </span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_16'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar29'  style='background-color:hsl(0, 0%, 95%);width:20px;padding:0px 0px 5px 5px;text-align:left;'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule29'  style='background-color:hsl(0, 0%, 95%);padding:0px 0px 0px 0px;text-align:left;' colspan='2'><p>
+<span style='font-size:smaller'>Score calculation:</span></p>
+
+<ul>
+<li><img  id='image_a87f05551ac047afaeb11684302593c2'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA60lEQVQokY2SMQqDMBSGY9N7CHFxUzDionPAA6g30FxEiIujXsEDeAOXgIOjU8BdB3EOdkgptZXab3mQ9/Hy83haXdcAgDRNwRW3dV2zLHNdt+u6C1WVvu+DIEiSRAhxoSqapsEYF0WxLMuJyxgDAOi6Po6jlFI9GobRtu1+BDDGlLdt20tVEEKGYTioqvE+9R1K6TzP+77fvnsfVFXleZ4Q4lqllHLOEUL3HxIhhDFmWdZhAyqolHKapiiKTjfwDGCaJoQQQmjbtuM4nPMwDD8+OQSI4zjPc4TQaZ6nijEuy9L3/R/Rtf8v6wGEDo5oKOwQdwAAAABJRU5ErkJggg=='  title='Test result (raw score)'  alt='Test result (raw score)'  ><span style='font-size:smaller'> Test result (raw score)</span>
+</li>
+<li><img  id='image_75fb0dd277ac46cfa038c6f99aeba220'  width='14' height='15' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPCAIAAABbdmkjAAAABnRSTlMA/wD/AP83WBt9AAAA50lEQVQokY2SIY6FMBRFH5O/AVZAQrdQHGh2AOwAEGyDpBiCwyJZAKYaiUDWwAIaEKT65Y/oD4E/BOaYip7c+/pSo65rAIjjGJ742bYtSRLHcfq+f1D1MQyD53lRFM3z/KBq2rallBZFsa7rhcsYAwDOOSIiIuccAAghXde9zwBjLMsyRKyqSkqJiHuK7/vjOJ7U/U4IoZT6qk3TdFmWk7pn/x2SEDJN00cNgkAppQe9S7UsS0ophNCPu5u1aRo8cLeBY51pmowx3fjF6+iFYZjnuW3bF/sH+KiU0rIsXde9lDTG/3/WL/RE0EAnX4TWAAAAAElFTkSuQmCC'  title='Multiplication by a weight factor 0.72'  alt='Multiplication by a weight factor 0.72'  ><span style='font-size:smaller'> Multiplication by a weight factor 0.72</span>
+</li>
+</ul>
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar29'  style='background-color:hsl(0, 0%, 95%);width:20px;padding:0px 5px 5px 0px;text-align:right;'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_17'><td id='table_6d9603a4affb4236a03b80b55eff3305_title33'  style='background-color:hsl(0, 0%, 95%);padding:5px 0px 0px 5px;text-align:left;' colspan='2'><span style='font-weight:bold'>Method names should follow conventions [max. 0.72] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result33'  style='background-color:hsl(0, 0%, 95%);padding:5px 5px 0px 0px;text-align:right;' colspan='2'><span style='font-weight:bold'>wrong - </span><span style='font-weight:bold'> 0.00 </span><span style='white-space:nowrap'><a href='#anchor_d4c789f8903144c99e58dd251e082bd9'><img  id='image_053b50cd29b84e99b325b9a5e8829a4b'  width='14' height='14' style='margin:0px 4px;' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAATElEQVR42mNgYPjPQB6GEygCBDCKRmTNhGxCsYBYzRgacWnGxcfpR3x8rBrxKSaoEV0zSRqxRQ1ZfiSoEV8iINqpBOOR1IRKjh4oBgC3DMM9igvEPQAAAABJRU5ErkJggg=='  title='jump to result details'  alt='jump to result details'  ></a></span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_18'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar33'  style='background-color:hsl(0, 0%, 95%);width:20px;padding:0px 0px 5px 5px;text-align:left;'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule33'  style='background-color:hsl(0, 0%, 95%);padding:0px 0px 0px 0px;text-align:left;' colspan='2'><p>
+<span style='font-size:smaller'>Score calculation:</span><span style='font-size:smaller'> Test result</span></p>
+
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar33'  style='background-color:hsl(0, 0%, 95%);width:20px;padding:0px 5px 5px 0px;text-align:right;'><span>&#160;</span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_19'><td id='table_6d9603a4affb4236a03b80b55eff3305_title37'  style='background-color:hsl(0, 0%, 86%);padding:5px 0px 0px 5px;text-align:left;' colspan='3'><span style='font-weight:bold'>Leading comments are required before public methods. [max. 1.68] </span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_result37'  style='background-color:hsl(0, 0%, 86%);padding:5px 5px 0px 0px;text-align:right;' colspan='3'><span style='font-weight:bold'>wrong - </span><span style='font-weight:bold'> 0.00 </span><span style='white-space:nowrap'><a href='#anchor_abbf8f628c104ca09ad7fbfe9b3e4453'><img  id='image_17c1338c01534c21937a9ec7245aeeeb'  width='14' height='14' style='margin:0px 4px;' src='data:image/png;charset=US-ASCII;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAATElEQVR42mNgYPjPQB6GEygCBDCKRmTNhGxCsYBYzRgacWnGxcfpR3x8rBrxKSaoEV0zSRqxRQ1ZfiSoEV8iINqpBOOR1IRKjh4oBgC3DMM9igvEPQAAAABJRU5ErkJggg=='  title='jump to result details'  alt='jump to result details'  ></a></span></td></tr><tr id='tr_table_6d9603a4affb4236a03b80b55eff3305_20'><td id='table_6d9603a4affb4236a03b80b55eff3305_leftBar37'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 0px 5px 5px;text-align:left;'><span>&#160;</span></td><td id='table_6d9603a4affb4236a03b80b55eff3305_calcRule37'  style='background-color:hsl(0, 0%, 86%);padding:0px 0px 0px 0px;text-align:left;' colspan='4'><p>
+<span style='font-size:smaller'>Score calculation:</span><span style='font-size:smaller'> Test result</span></p>
+
+</td><td id='table_6d9603a4affb4236a03b80b55eff3305_rightBar37'  style='background-color:hsl(0, 0%, 86%);width:20px;padding:0px 5px 5px 0px;text-align:right;'><span>&#160;</span></td></tr></table><span style='font-size:larger;font-weight:bold'>Overall result</span><br>
+<ul>
+<li><span style='text-decoration:underline;font-size:larger'>Functionality</span><br>
+<ul>
+<li><a id='anchor_68dabea805c84c6db65c01ebfa2fdfe9'></a><span style='text-decoration:underline;font-size:larger'>Wrong. Should calculate radius</span><br>
+<p>
+<span> 
+Circle.calcRadius(1.0) should return 0.5642 but returned 0.3183.
+Circle.calcRadius(3.0) should return 0.9772 but returned 0.5513.
+Circle.calcRadius(10.0) should return 1.7841 but returned 1.0066.
+Circle.calcRadius(30.0) should return 3.0902 but returned 1.7435.</span></p>
+
+
+</li>
+</ul>
+
+</li>
+<li><span style='text-decoration:underline;font-size:larger'>Maintainability</span><br>
+<ul>
+<li><span style='font-style:italic;font-size:larger'>Style</span><br>
+<ul>
+<li><a id='anchor_d4c789f8903144c99e58dd251e082bd9'></a><span style='font-style:italic;font-size:larger'>Wrong. Method names should follow conventions</span><br>
+<p>
+<span>
+Method names should always begin with a lower case character, and should not contain underscores.
+          </span></p>
+
+<ul>
+<li><p>
+<span>Method names should not start with capital letters</span></p>
+
+<pre>Circle.java
+6 : }
+7 : &#47;** @return v&#178; *&#47;
+8 &#62;&#62;private static double Square(double v) {
+9 :     return v * v&#59;</pre>
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+<li><a id='anchor_abbf8f628c104ca09ad7fbfe9b3e4453'></a><span style='text-decoration:underline;font-size:larger'>Wrong. Leading comments are required before public methods.</span><br>
+<p>
+<span>Leading comments are required before public methods.</span></p>
+
+<ul>
+<li><p>
+<span>publicMethodCommentRequirement Required</span></p>
+
+<pre>Circle.java
+10 :        }
+11 :        &#47;* return &#8730;a &#47; &#960; *&#47;
+12 &#62;&#62;       public static double calcRadius(double a) { 
+13 &#62;&#62;           return Math.sqrt(a) &#47; Math.PI&#59; 
+14 &#62;&#62;       }
+15 :    }</pre>
+</li>
+</ul>
+
+</li>
+</ul>
+
+</li>
+</ul></div><div class='graja'>
+<p>
+<span>Grading stops at: 2019-09-14T10:46:27.43 (duration: 6 seconds)
+</span></p></div>
+]]></p:student-feedback>
+  </p:merged-test-feedback>
+  <p:files></p:files>
+  <p:response-meta-data>
+    <p:grader-engine name="Graja" version="2.1.0-SNAPSHOT 2019-09-14 10:08:22"></p:grader-engine>
+  </p:response-meta-data>
+</p:response>
