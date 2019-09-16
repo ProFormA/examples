@@ -1,4 +1,4 @@
 # Examples for ProFormA
 
-##structure
+## Structure
 {version}/{gradername-version}/
