@@ -1,4 +1,4 @@
 # Examples for ProFormA
 
 ##structure
-{taskxmlversion}\{gradername-version}\
+{version}/{gradername-version}/
