@@ -5,21 +5,21 @@
       <p:student-feedback level="info">
         <p:content format="html"><![CDATA[<div class='graja'>
 <p>
-<span>Grading starts at: 2019-09-14T10:21:29.626
+<span>Grading starts at: 2019-10-13T19:57:44.514
 </span></p><p>
 <span style='font-weight:bold;font-size:larger'>Submission processing</span><span style='font-weight:bold;font-size:larger'> Details</span></p><p>
 <span>Graja detected the following encodings in your source files.</span></p>
 
-<table id='table_39fb7b55c4a541448fa5b8d25eace539' style='padding:0px;border-spacing:0px;'><tr id='tr_table_39fb7b55c4a541448fa5b8d25eace539_0'><th id='table_39fb7b55c4a541448fa5b8d25eace539_a59d6c6a-26bc-4c18-b30c-01250beef042'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>File</span></th><th id='table_39fb7b55c4a541448fa5b8d25eace539_40eda8c5-aaa4-43f1-9149-56b4b5f28924'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>Detected encoding</span></th></tr><tr id='tr_table_39fb7b55c4a541448fa5b8d25eace539_1'><td id='table_39fb7b55c4a541448fa5b8d25eace539_3ff99a08-98d8-4999-91af-535e46abb3c0'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>&#47;geom&#47;Circle.java</span></td><td id='table_39fb7b55c4a541448fa5b8d25eace539_40ede9f3-1572-410e-a5e6-ec98d2abc32e'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>UTF-8</span></td></tr></table><p>
+<table id='table_de2d03d766c44c81891afda8a3ca6764' style='padding:0px;border-spacing:0px;'><tr id='tr_table_de2d03d766c44c81891afda8a3ca6764_0'><th id='table_de2d03d766c44c81891afda8a3ca6764_816921a0-918d-4ee8-a263-c403f6628cdd'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>File</span></th><th id='table_de2d03d766c44c81891afda8a3ca6764_34447f18-4b4d-41e0-8911-0be4cd36a581'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>Detected encoding</span></th></tr><tr id='tr_table_de2d03d766c44c81891afda8a3ca6764_1'><td id='table_de2d03d766c44c81891afda8a3ca6764_8b7af168-9611-49ec-b558-9520ba364656'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>&#47;geom&#47;Circle.java</span></td><td id='table_de2d03d766c44c81891afda8a3ca6764_abe6eeb7-d82a-42dd-9617-acf6080f0124'  style='background-color:transparent;padding:0px 0px 0px 0px;text-align:left;'><span>UTF-8</span></td></tr></table><p>
 <span>This above table is for your information only. You should consult the table, if there are strange errors that do not occur on your computer. Note: it's safest to use UTF-8 for your source files, since UTF-8 can be detected reliably. Other encodings like Windows encodings, Latin1 or Mac specific encodings might not be detected correctly depending on your source file contents. As a consequence the following could happen: you saved your Java source containing e. g. the variable 'm&#225;cula' using the encoding x-MacRoman. Graja mistakenly loads your file using a different encoding windows-1252 and interprets the character '&#225;' as a symbol '&#8211;'. The resulting variable name 'm&#8211;cula' is an illegal Java identifier and compilation will fail. In order to prevent such errors it is recommended to save and submit your files in UTF-8.</span></p></div><div class='graja'>
 <p>
-<span>Running JVM's java version: 1.8. </span><span>Graja version: 2.1.0-SNAPSHOT 2019-09-14 10:08:22. </span></p><p>
+<span>Running JVM's java version: 1.8. </span><span>Graja version: 2.1.0-SNAPSHOT 2019-10-13 19:39:38. </span></p><p>
 <span style='font-size:larger;font-weight:bold'>Summary</span><span style='font-size:larger;font-weight:bold'> Details</span></p>
 
 <p>
 <span>Error. Score: 2.91&#47;8.00. Assignment dom.circle.</span></p></div><div class='graja'>
 <p>
-<span>Grading stops at: 2019-09-14T10:21:38.927 (duration: 9 seconds)
+<span>Grading stops at: 2019-10-13T19:57:53.511 (duration: 8 seconds)
 </span></p></div>]]></p:content>
       </p:student-feedback>
     </p:submission-feedback-list>
@@ -36,6 +36,16 @@
       </p:test-response>
       <p:test-response id="junit">
         <p:subtests-response>
+          <p:subtest-response id="dom.circle.grader.Tester#testMethod">
+            <p:test-result>
+              <p:result>
+                <p:score>1.0</p:score>
+              </p:result>
+              <p:feedback-list>
+                <p:student-feedback level="info"></p:student-feedback>
+              </p:feedback-list>
+            </p:test-result>
+          </p:subtest-response>
           <p:subtest-response id="dom.circle.grader.Tester#testRtoA">
             <p:test-result>
               <p:result>
@@ -54,7 +64,7 @@
               <p:feedback-list>
                 <p:student-feedback level="info">
                   <p:content format="html"><![CDATA[<div class='graja'>
-<a id='anchor_012406652d0d4ef0ab84c5a928fac265'></a><p>
+<a id='anchor_bacff3e947ac4e0a914e65b319e1889c'></a><p>
 <span> 
 Circle.calcRadius(1.0) should return 0.5642 but returned 0.3183.
 Circle.calcRadius(3.0) should return 0.9772 but returned 0.5513.
@@ -90,7 +100,7 @@ Circle.calcRadius(30.0) should return 3.0902 but returned 1.7435.</span></p></di
               <p:feedback-list>
                 <p:student-feedback level="info">
                   <p:content format="html"><![CDATA[<div class='graja'>
-<a id='anchor_ba82fdc98b8a4556b102282c749bfed2'></a><p>
+<a id='anchor_3989efe705024810843b66863997509a'></a><p>
 <span>
 Method names should always begin with a lower case character, and should not contain underscores.
           </span></p>
@@ -118,7 +128,7 @@ Method names should always begin with a lower case character, and should not con
               <p:feedback-list>
                 <p:student-feedback level="info">
                   <p:content format="html"><![CDATA[<div class='graja'>
-<a id='anchor_f30db8ea3bc04c76a2d87b8ed8b3a4b1'></a><p>
+<a id='anchor_57991e203717472badf18c8b047254be'></a><p>
 <span>Leading comments are required before public methods.</span></p>
 
 <ul>
@@ -145,6 +155,6 @@ Method names should always begin with a lower case character, and should not con
   <p:files>
   </p:files>
   <p:response-meta-data>
-    <p:grader-engine name="Graja" version="2.1.0-SNAPSHOT 2019-09-14 10:08:22"></p:grader-engine>
+    <p:grader-engine name="Graja" version="2.1.0-SNAPSHOT 2019-10-13 19:39:38"></p:grader-engine>
   </p:response-meta-data>
 </p:response>
